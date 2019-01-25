@@ -1,0 +1,21 @@
+{
+  "name": "websocketserver",
+  "version": "1.0.0",
+  "description": "nodejs websocket server",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "websocket",
+    "nodejs"
+  ],
+  "author": "Daniel Pivalizza",
+  "license": "ISC",
+  "dependencies": {
+    "he": "^1.2.0",
+    "mongoose": "^5.4.4",
+    "nodemon": "^1.18.9",
+    "websocket": "^1.0.28"
+  }
+}
